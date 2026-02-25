@@ -1,0 +1,791 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 237,
+                            "functionName": "boardRows",
+                            "line": 30,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 56,
+                            "functionName": "keyStates",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 302,
+                            "functionName": "wordLength",
+                            "line": 36,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 208,
+                            "functionName": "startRandom",
+                            "line": 38,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 191,
+                            "functionName": "startGameUI",
+                            "line": 43,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 964,
+                            "functionName": "buildBoard",
+                            "line": 51,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "addLetter",
+                            "line": 62,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 2018,
+                            "functionName": "backspace",
+                            "line": 72,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 6998,
+                            "functionName": "submitGuess",
+                            "line": 81,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "openApp",
+                            "line": 101,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "tileSpan",
+                            "line": 106,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "tileRowSpan",
+                            "line": 111,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 372,
+                            "functionName": "tileSizes",
+                            "line": 118,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 87,
+                            "durationMicroseconds": 164,
+                            "functionName": "fillMode",
+                            "line": 139,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 83,
+                            "functionName": "fill",
+                            "line": 139,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 91,
+                            "functionName": "fill",
+                            "line": 140,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 94,
+                            "functionName": "fill",
+                            "line": 143,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 83,
+                            "functionName": "fill",
+                            "line": 152,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 95,
+                            "durationMicroseconds": 102,
+                            "functionName": "weight",
+                            "line": 155,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 159,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 217,
+                            "functionName": "color",
+                            "line": 160,
+                            "message": "Cannot access value for name editMode"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 101,
+                            "functionName": "text",
+                            "line": 161,
+                            "message": "Cannot load property text from (component in C:/Users/Arosl/Documents/MetroWordleC/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 97,
+                            "durationMicroseconds": 86,
+                            "functionName": "horizontalAlignment",
+                            "line": 161,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 135,
+                            "durationMicroseconds": 73,
+                            "functionName": "verticalAlignment",
+                            "line": 161,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 145,
+                            "functionName": "contentWidth",
+                            "line": 174,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 47,
+                            "functionName": "contentHeight",
+                            "line": 175,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 62,
+                            "functionName": "flow",
+                            "line": 183,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 31,
+                            "functionName": "rowSpacing",
+                            "line": 184,
+                            "message": "Cannot access value for name gapSize"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 21,
+                            "functionName": "columnSpacing",
+                            "line": 185,
+                            "message": "Cannot access value for name gapSize"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 59,
+                            "functionName": "model",
+                            "line": 188,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 573,
+                            "functionName": "width",
+                            "line": 196,
+                            "message": "Cannot access value for name cellSize"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 350,
+                            "functionName": "height",
+                            "line": 197,
+                            "message": "Cannot access value for name cellSize"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 241,
+                            "functionName": "color",
+                            "line": 198,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 221,
+                            "functionName": "text",
+                            "line": 204,
+                            "message": "Cannot access value for name tileId"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 115,
+                            "functionName": "left",
+                            "line": 201,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 45,
+                            "durationMicroseconds": 81,
+                            "functionName": "bottom",
+                            "line": 202,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 70,
+                            "functionName": "pixelSize",
+                            "line": 206,
+                            "message": "Cannot access value for name tileId"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 24,
+                            "functionName": "bold",
+                            "line": 207,
+                            "message": "Cannot access value for name label"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 34,
+                            "functionName": "visible",
+                            "line": 211,
+                            "message": "Cannot access value for name icon"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 37,
+                            "durationMicroseconds": 22,
+                            "functionName": "source",
+                            "line": 212,
+                            "message": "Cannot access value for name icon"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 137,
+                            "functionName": "width",
+                            "line": 214,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 242,
+                            "functionName": "height",
+                            "line": 215,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 59,
+                            "functionName": "fillMode",
+                            "line": 216,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 51,
+                            "functionName": "centerIn",
+                            "line": 213,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 1297,
+                            "functionName": "onClicked",
+                            "line": 221,
+                            "message": "Cannot access value for name editMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 58,
+                            "functionName": "fill",
+                            "line": 220,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 24,
+                            "functionName": "visible",
+                            "line": 239,
+                            "message": "Cannot access value for name currentView"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 337,
+                            "functionName": "fill",
+                            "line": 240,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 45,
+                            "functionName": "fill",
+                            "line": 245,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 45,
+                            "durationMicroseconds": 79,
+                            "functionName": "verticalCenter",
+                            "line": 252,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 67,
+                            "functionName": "left",
+                            "line": 253,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 255,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 28,
+                            "functionName": "text",
+                            "line": 256,
+                            "message": "Cannot access value for name appTitle"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 27,
+                            "functionName": "visible",
+                            "line": 267,
+                            "message": "Cannot access value for name currentView"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 44,
+                            "functionName": "centerIn",
+                            "line": 265,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 61,
+                            "durationMicroseconds": 27,
+                            "functionName": "color",
+                            "line": 271,
+                            "message": "Cannot access value for name metroBlue"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 38,
+                            "functionName": "centerIn",
+                            "line": 272,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 269,
+                            "functionName": "onClicked",
+                            "line": 275,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 43,
+                            "functionName": "fill",
+                            "line": 274,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 61,
+                            "durationMicroseconds": 24,
+                            "functionName": "color",
+                            "line": 282,
+                            "message": "Cannot access value for name metroGreen"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 40,
+                            "functionName": "centerIn",
+                            "line": 283,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 74,
+                            "durationMicroseconds": 153,
+                            "functionName": "onClicked",
+                            "line": 284,
+                            "message": "method startRandom cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 38,
+                            "functionName": "fill",
+                            "line": 284,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 26,
+                            "functionName": "visible",
+                            "line": 295,
+                            "message": "Cannot access value for name currentView"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 36,
+                            "functionName": "fill",
+                            "line": 292,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 23,
+                            "functionName": "text",
+                            "line": 297,
+                            "message": "Cannot access value for name messageText"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 104,
+                            "durationMicroseconds": 55,
+                            "functionName": "horizontalAlignment",
+                            "line": 297,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 130,
+                            "durationMicroseconds": 56,
+                            "functionName": "width",
+                            "line": 297,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 67,
+                            "functionName": "horizontalCenter",
+                            "line": 300,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 30,
+                            "functionName": "model",
+                            "line": 303,
+                            "message": "Cannot access value for name boardRows"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 104,
+                            "functionName": "rowIndex",
+                            "line": 306,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 161,
+                            "functionName": "model",
+                            "line": 308,
+                            "message": "method wordLength cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 144,
+                            "functionName": "color",
+                            "line": 314,
+                            "message": "Cannot access value for name boardRows"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 80,
+                            "durationMicroseconds": 368,
+                            "functionName": "text",
+                            "line": 321,
+                            "message": "Cannot access value for name boardRows"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 55,
+                            "functionName": "centerIn",
+                            "line": 321,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 139,
+                            "functionName": "width",
+                            "line": 329,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 99,
+                            "functionName": "centerIn",
+                            "line": 333,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 1185,
+                            "functionName": "model",
+                            "line": 338,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 215,
+                            "functionName": "color",
+                            "line": 342,
+                            "message": "Cannot access value for name keyStates"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 76,
+                            "durationMicroseconds": 30,
+                            "functionName": "text",
+                            "line": 343,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 62,
+                            "durationMicroseconds": 55,
+                            "functionName": "centerIn",
+                            "line": 343,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 82,
+                            "durationMicroseconds": 320,
+                            "functionName": "onClicked",
+                            "line": 344,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 61,
+                            "functionName": "fill",
+                            "line": 344,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 146,
+                            "functionName": "horizontalCenter",
+                            "line": 351,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 353,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 354,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 38,
+                            "functionName": "visible",
+                            "line": 359,
+                            "message": "Cannot access value for name currentView"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 119,
+                            "functionName": "contentHeight",
+                            "line": 361,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 44,
+                            "functionName": "fill",
+                            "line": 360,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 95,
+                            "functionName": "width",
+                            "line": 364,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 61,
+                            "functionName": "wrapMode",
+                            "line": 368,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 17057,
+                            "functionName": "onCompleted",
+                            "line": 377,
+                            "message": "Cannot access value for name wordleBackend"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 152,
+                            "functionName": "sequences",
+                            "line": 392,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 144,
+                            "functionName": "onActivated",
+                            "line": 393,
+                            "message": "Cannot access value for name currentView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 99,
+                            "functionName": "onActivated",
+                            "line": 398,
+                            "message": "Cannot access value for name currentView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 355,
+                            "functionName": "onPressed",
+                            "line": 401,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 40,
+                            "functionName": "onPressed",
+                            "line": 401,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "C:/Users/Arosl/Documents/MetroWordleC/Main.qml"
+                }
+            ],
+            "moduleId": "MetroWordleC(appMetroWordleC)"
+        }
+    ]
+}

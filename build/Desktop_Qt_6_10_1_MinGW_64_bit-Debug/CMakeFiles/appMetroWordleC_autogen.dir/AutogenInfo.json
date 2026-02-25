@@ -928,6 +928,7 @@
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appMetroWordleC_conf.cmake"
@@ -936,7 +937,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appMetroWordleC_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appMetroWordleC_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Arosl/Documents/MetroWordleC/MetroWordleBackend.h",
+			"MU",
+			"EWIEGA46WW/moc_MetroWordleBackend.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appMetroWordleC_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appMetroWordleC_autogen/mocs_compilation.cpp",
@@ -998,6 +1007,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",
@@ -1008,6 +1018,7 @@
 	"MOC_SKIP" : 
 	[
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appMetroWordleC_raw_qml_0.cpp",
+		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_metro_assets.cpp",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_MetroWordleC.cpp",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appMetroWordleC_Main_qml.cpp",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appMetroWordleC_qmlcache_loader.cpp",
@@ -1023,6 +1034,11 @@
 	"SETTINGS_FILE" : "C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appMetroWordleC_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/Arosl/Documents/MetroWordleC/MetroWordleBackend.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/Arosl/Documents/MetroWordleC/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
@@ -1030,6 +1046,7 @@
 	"UIC_SKIP" : 
 	[
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appMetroWordleC_raw_qml_0.cpp",
+		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_metro_assets.cpp",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_MetroWordleC.cpp",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appMetroWordleC_Main_qml.cpp",
 		"C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appMetroWordleC_qmlcache_loader.cpp",

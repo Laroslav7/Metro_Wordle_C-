@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="BackGround/LockScreen.png">C:/Users/Arosl/Documents/MetroWordleC/BackGround/LockScreen.png</file>
+    <file alias="bathroom_tiles/Create.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Create.png</file>
+    <file alias="bathroom_tiles/Date.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Date.png</file>
+    <file alias="bathroom_tiles/Desktop.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Desktop.png</file>
+    <file alias="bathroom_tiles/Explorer.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Explorer.png</file>
+    <file alias="bathroom_tiles/Galery.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Galery.png</file>
+    <file alias="bathroom_tiles/Game.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Game.png</file>
+    <file alias="bathroom_tiles/Again.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Again.png</file>
+    <file alias="bathroom_tiles/info.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/info.png</file>
+    <file alias="bathroom_tiles/Mail.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Mail.png</file>
+    <file alias="bathroom_tiles/Music.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Music.png</file>
+    <file alias="bathroom_tiles/Random.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Random.png</file>
+    <file alias="bathroom_tiles/Seting.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Seting.png</file>
+    <file alias="bathroom_tiles/Store.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Store.png</file>
+    <file alias="bathroom_tiles/user.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/user.png</file>
+    <file alias="bathroom_tiles/Video.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/Video.png</file>
+    <file alias="bathroom_tiles/weather.png">C:/Users/Arosl/Documents/MetroWordleC/bathroom_tiles/weather.png</file>
+  </qresource>
+</RCC>
+
