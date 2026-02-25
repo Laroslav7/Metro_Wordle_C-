@@ -1,10 +1,8 @@
 #include "MetroWordleBackend.h"
 
 #include <QByteArray>
-#include <QDateTime>
 #include <QRandomGenerator>
 #include <QRegularExpression>
-#include <QUrl>
 
 MetroWordleBackend::MetroWordleBackend(QObject *parent)
     : QObject(parent)
@@ -50,6 +48,12 @@ QString MetroWordleBackend::sanitizeRussianWord(const QString &value) const
     return v;
 }
 
+QString MetroWordleBackend::decodeCode(const QString &code) const
+{
+    const QByteArray decoded = QByteArray::fromBase64(code.trimmed().toUtf8());
+    return sanitizeRussianWord(QString::fromUtf8(decoded));
+}
+
 void MetroWordleBackend::resetGame()
 {
     m_currentAttempt = 0;
@@ -69,8 +73,12 @@ void MetroWordleBackend::startRandomMode()
 
 bool MetroWordleBackend::startFriendMode(const QString &encodedHash)
 {
-    const QByteArray decoded = QByteArray::fromBase64(encodedHash.toUtf8());
-    const QString word = sanitizeRussianWord(QString::fromUtf8(decoded));
+    return startCodeMode(encodedHash);
+}
+
+bool MetroWordleBackend::startCodeMode(const QString &code)
+{
+    const QString word = decodeCode(code);
     if (word.length() < 3)
         return false;
 
@@ -81,13 +89,19 @@ bool MetroWordleBackend::startFriendMode(const QString &encodedHash)
     return true;
 }
 
-QString MetroWordleBackend::generateLink(const QString &word, const QString &baseUrl)
+QString MetroWordleBackend::createGameCode(const QString &word) const
 {
     const QString clean = sanitizeRussianWord(word);
     if (clean.length() < 3)
         return QString();
+    return QString::fromUtf8(clean.toUtf8().toBase64());
+}
 
-    const QString encoded = QString::fromUtf8(clean.toUtf8().toBase64());
+QString MetroWordleBackend::generateLink(const QString &word, const QString &baseUrl) const
+{
+    const QString encoded = createGameCode(word);
+    if (encoded.isEmpty())
+        return QString();
     return baseUrl + QStringLiteral("#") + encoded;
 }
 

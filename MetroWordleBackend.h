@@ -3,9 +3,8 @@
 #include <QObject>
 #include <QString>
 #include <QStringList>
-#include <QVariant>
-#include <QVariantMap>
 #include <QVariantList>
+#include <QVariantMap>
 
 class MetroWordleBackend : public QObject
 {
@@ -27,7 +26,9 @@ public:
 
     Q_INVOKABLE void startRandomMode();
     Q_INVOKABLE bool startFriendMode(const QString &encodedHash);
-    Q_INVOKABLE QString generateLink(const QString &word, const QString &baseUrl);
+    Q_INVOKABLE bool startCodeMode(const QString &code);
+    Q_INVOKABLE QString createGameCode(const QString &word) const;
+    Q_INVOKABLE QString generateLink(const QString &word, const QString &baseUrl) const;
     Q_INVOKABLE void resetGame();
     Q_INVOKABLE QString addLetter(const QString &letter);
     Q_INVOKABLE QString deleteLetter();
@@ -39,7 +40,7 @@ signals:
 
 private:
     QString sanitizeRussianWord(const QString &value) const;
-    QStringList m_wordsDb;
+    QString decodeCode(const QString &code) const;
 
     QString m_targetWord;
     int m_currentAttempt = 0;
@@ -49,4 +50,5 @@ private:
     QStringList m_guessRows;
 
     static constexpr int MaxAttempts = 6;
+    const QStringList m_wordsDb;
 };
