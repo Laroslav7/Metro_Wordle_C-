@@ -7,6 +7,8 @@ C:/Qt/6.10.1/mingw_64/qml
 C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_MetroWordleC.qrc
 --resource
 C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appMetroWordleC_raw_qml_0.qrc
+--resource
+C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/metro_assets.qrc
 C:/Users/Arosl/Documents/MetroWordleC/Main.qml
 --json
 C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appMetroWordleC_qmllint.json

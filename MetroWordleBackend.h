@@ -3,6 +3,9 @@
 #include <QObject>
 #include <QString>
 #include <QStringList>
+#include <QVariant>
+#include <QVariantMap>
+#include <QVariantList>
 
 class MetroWordleBackend : public QObject
 {
@@ -36,6 +39,7 @@ signals:
 
 private:
     QString sanitizeRussianWord(const QString &value) const;
+    QStringList m_wordsDb;
 
     QString m_targetWord;
     int m_currentAttempt = 0;
@@ -45,5 +49,4 @@ private:
     QStringList m_guessRows;
 
     static constexpr int MaxAttempts = 6;
-    const QStringList m_wordsDb;
 };
