@@ -1,0 +1,6 @@
+module MetroWordleC
+typeinfo appMetroWordleC.qmltypes
+prefer :/qt/qml/MetroWordleC/
+Main 254.0 Main.qml
+depends QtQuick
+

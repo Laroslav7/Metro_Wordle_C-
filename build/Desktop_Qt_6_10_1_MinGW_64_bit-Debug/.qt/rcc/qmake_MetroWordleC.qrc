@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MetroWordleC">
+    <file alias="qmldir">C:/Users/Arosl/Documents/MetroWordleC/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/MetroWordleC/qmldir</file>
+  </qresource>
+</RCC>
+
